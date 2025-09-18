@@ -5,16 +5,33 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_class_schedule"
+            android:icon="@drawable/ic_menu_schedule"
+            android:title="Class Schedule" />
+
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_assignment_tracker"
+            android:icon="@drawable/ic_menu_assignments"
+            android:title="Assignment Tracker" />
+
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:id="@+id/nav_study_resources"
+            android:icon="@drawable/ic_menu_study_resources"
+            android:title="Study Resources" />
+
+        <item
+            android:id="@+id/nav_pomodoro_timer"
+            android:icon="@drawable/ic_menu_pomodoro"
+            android:title="Pomodoro Timer" />
+
+        <item
+            android:id="@+id/nav_progress_dashboard"
+            android:icon="@drawable/ic_menu_dashboard"
+            android:title="Progress Dashboard" />
+
+        <item
+            android:id="@+id/nav_mental_wellness"
+            android:icon="@drawable/ic_menu_wellness"
+            android:title="Mental Wellness Tools" />
     </group>
 </menu>
